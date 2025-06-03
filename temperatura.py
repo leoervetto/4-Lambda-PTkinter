@@ -6,7 +6,7 @@ def abrir_ventana():
     ventana = tk.Toplevel()
     ventana.title("Conversión de Temperatura")
     ventana.geometry("300x300")
-
+# ventana emergente...
     ttk.Label(ventana, text="Ingrese temperatura en °C:").pack(pady=5)
     entrada = ttk.Entry(ventana)
     entrada.pack(pady=5)
